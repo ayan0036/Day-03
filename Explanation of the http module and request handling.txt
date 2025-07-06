@@ -1,0 +1,10 @@
+Q:What is the http module in Node.js? 
+ANS:The http module is a built-in module in Node.js that allows you to create an HTTP server. It helps your Node.js application receive requests from clients (like browsers or Postman) and send back responses (like web pages or messages). 
+You don’t need to install it separately — it comes with Node.js by default. 
+
+
+Q:What is Request Handling? 
+ANS:Request handling means responding to different types of requests sent to your server. For example: 
+If someone visits http://localhost:3000/about, your server can send a specific response like "This is the About Page". 
+If someone visits a wrong path, your server can return "404 Page Not Found". 
+In Node.js, you handle requests by checking req.url (the requested path) and using res.write() or res.end() to send a response.
